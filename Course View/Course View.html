@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Lesson pricing</title>
+        <title>Course View</title>
         
         <!--Font Awesome icons-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
@@ -16,14 +16,75 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS-->
         <link href="css/home.css" rel="stylesheet" />
-        <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet"/>
+        <link href="css/style.css" rel="stylesheet"/>
        
         <!-- flaticon add-->
         <link rel="icon" type="image/png" href="momentum.ico"/>
     </head>
 
-<body>
+<body class="stretched">
+
+    <div id="wrapper" class="clearfix">
+
+        <header>
+            <!-- Header Start -->
+           <div class="header-area header-transparrent ">
+                <div class="main-header header-sticky">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <!-- Logo -->
+                            <div class="col-xl-2 col-lg-2 col-md-1">
+                                <div class="logo">
+                                    <a href="#"><img src="assets/img/logo/logo.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-7 col-lg-8 col-md-8">
+                                <!-- Main-menu -->
+                                <div style="padding: 2rem;" class="main-menu f-right d-none d-lg-block">
+                                    <!------code added------>
+                                    <nav  class="navbar navbar-expand-md py-3 px-5 fixed-top bg-transparent">
+                                        <a class="navbar-brand px-2" href="#">
+                                            <img src="{{ asset('assets/img/logo/logo.png') }}" alt="">
+                                        </a>
+                                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                                          <span class="navbar-toggler-icon text-dark"></span>
+                                        </button>
+                                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                                            <ul class="navbar-nav mr-auto">
+                                                <!--
+                                               <li class="nav-item">
+                                                   <a class="nav-link disabled" href="#">Disabled</a>
+                                               </li>
+                                               -->
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                    <!------code added------>
+                                </div>
+                            </div>             
+                            <div class="col-xl-3 col-lg-2 col-md-1">
+                                <div class=" main-menu header-right-btn f-right d-none d-lg-block">
+                                    
+                                    <a href="#" style="padding: 10px;" class="btn header-btn"><i class="fa fa-sign-in" aria-hidden="true"></i> &nbsp;Sign In</a>
+                                    <a href="#" style="background-color: rgb(247, 92, 182); padding: 10px;" class="btn header-btn"> <i class="fa fa-plus" aria-hidden="true"></i> &nbsp;Sign Up</a>
+                                </div>
+                            </div>
+                            <!-- Mobile Menu -->
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+            <!-- Header End -->
+        </header>
+    </div>
+            
+    
+
+
 <div class="container-fluid bg-gradient p-5">
     <div class="row m-auto text-center w-75">
 
