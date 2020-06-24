@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100i,200,300,300i,400,500,600,700,800,900&display=swap");
+/*bg z-index css*/
+.what-we-do
+{
+    position:relative
+}
+.what-we-do::before
+{
+    background-image:url(../img/shape/what_do.png);
+    position:absolute;
+    content:"";
+    top:-187px;
+    z-index:1;
+    background-repeat:no-repeat;
+    left:0px;
+    max-width:243px;
+    max-height:482px;
+    width:243px;height:482px
+}
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+.what-we-do::before{display:none}
+}
+@media only screen and (min-width: 576px) and (max-width: 767px)
+{
+.what-we-do::before{display:none}
+}
+@media (max-width: 767px)
+{
+.what-we-do::before{display:none}
+}
+.what-we-do::after
+{
+    background-image:url(../img/shape/what_do_right.png);
+    position:absolute;content:"";
+    bottom:-187px;z-index:-1;
+    background-repeat:no-repeat;
+    right:0px;max-width:351px;
+    max-height:461px;width:351px;
+    height:461px;bottom:125px
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+.what-we-do::after{display:none}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+.what-we-do::after{display:none}
+}
+@media only screen and (min-width: 576px) and (max-width: 767px)
+{
+.what-we-do::after{display:none}
+}
+@media (max-width: 767px)
+{
+.what-we-do::after{display:none}
+}
+.what-we-do .single-do
+{
+    -webkit-transition:all .3s ease-out 0s;
+    -moz-transition:all .3s ease-out 0s;
+    -ms-transition:all .3s ease-out 0s;
+    -o-transition:all .3s ease-out 0s;
+    transition:all .3s ease-out 0s;
+    padding:56px 40px 69px;
+    border-radius:6px
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+.what-we-do .single-do{padding:41px 17px 63px}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+.what-we-do .single-do{padding:41px 17px 63px}
+}
+@media only screen and (min-width: 576px) and (max-width: 767px)
+{
+.what-we-do .single-do{padding:41px 17px 63px}
+}
+@media (max-width: 767px)
+{
+.what-we-do .single-do{padding:41px 17px 63px}
+}
+.what-we-do .single-do .do-icon span
+{
+    font-size:73px;
+    margin-bottom:20px;
+    display:inline-block;
+    color:#ff5c97
+}
+.what-we-do .single-do .do-caption h4
+{
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:23px
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+.what-we-do .single-do .do-caption h4
+{
+    font-size:21px}
+}
+.what-we-do .single-do .do-caption p
+{
+    margin-bottom:40px
+}
+.what-we-do .single-do 
+.do-btn a
+{
+    color:#c5ccd8;
+    text-transform:uppercase;
+    font-size:13px;
+    font-weight:500;
+    -webkit-transition:all .3s ease-out 0s;
+    -moz-transition:all .3s ease-out 0s;
+    -ms-transition:all .3s ease-out 0s;
+    -o-transition:all .3s ease-out 0s;
+    transition:all .3s ease-out 0s
+}
+.what-we-do 
+.single-do 
+
+/*btn css*/
+.do-btn a i
+{
+    background:#c5ccd8;width:24px;height:24px;display:inline-block;
+    line-height:24px;
+    color:#fff;
+    border-radius:50%;
+    margin-right:7px;
+    -webkit-transition:all .3s ease-out 0s;
+    -moz-transition:all .3s ease-out 0s;
+    -ms-transition:all .3s ease-out 0s;
+    -o-transition:all .3s ease-out 0s;
+    transition:all .3s ease-out 0s
+}
