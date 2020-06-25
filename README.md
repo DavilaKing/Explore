@@ -32,7 +32,7 @@ Profile Main Page of student Explore
     
 #6 View Course 
     6.1 Used (card) as the course provided
-    6.2 (what-we-do) bg are used  
+    6.2 (what-we-do) bg are used  .
     
 #7 Lesson View Video
     7.1 Student can access the lesson for the course via video 
