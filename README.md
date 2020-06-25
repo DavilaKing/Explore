@@ -3,7 +3,8 @@ Profile Main Page of student Explore
 
 /// combine css and img in one.file /// <!------ contain all the web design interface of e-learning website --->
 
-/*---------------
+
+/*-------------------------------------------------------------------------------------------------------
 
 #1 index <br>
     1.1 The main landing page (Top hover nav bar) <br>
@@ -42,4 +43,4 @@ Profile Main Page of student Explore
 #8 profile <br>
     8.1 Still working on the top nav profile img<br>
     
----------------*/
+-------------------------------------------------------------------------------------------------------------*/
