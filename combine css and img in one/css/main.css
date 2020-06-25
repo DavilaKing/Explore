@@ -159,12 +159,14 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-
+  
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
   z-index: 1;  
+  padding-left: 450px;
+  padding-right: 450px;
 }
 
 .container-login100::before {
@@ -183,7 +185,6 @@ iframe {
   width: 390px;
   border-radius: 10px;
   overflow: hidden;
-
   background: transparent;
 }
 
@@ -196,6 +197,8 @@ iframe {
   border-radius: 10px;
   background-color: #fff;
 }
+
+.form_table { text-align: center; }
 
 .login100-form-logo {
   font-size: 60px; 
