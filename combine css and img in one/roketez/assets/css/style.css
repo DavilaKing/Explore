@@ -155,7 +155,7 @@
         padding-top:70px;
         padding-bottom:0px
     }
-}
+
 .white-bg
 {
     background:#ffffff
@@ -233,7 +233,7 @@
 {
     .main-header .main-menu
     {
-        margin-right:
+        margin-right: 0px
     }
 }
 .main-header .main-menu ul li
