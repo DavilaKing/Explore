@@ -4,7 +4,7 @@
 ###### combine css and img in one.file 
 ###### <!--- contain all the web design interface of e-learning website --->
 
-## index
+## Index
 - [x] 1.1 The main landing page (Top hover nav bar)
 - [x] 1.2 Theme color used (# 2B4B80 Blue)(# E20863 Pink)
 - [x] 1.3 Rounded button are used
